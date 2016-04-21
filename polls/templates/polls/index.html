@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Lottery</title>
+    </head>
+    <body>
+        <div class="page-header">
+        <h1>Hello, world. You're at the lottery website. You can register yourself <a href="{% url 'registration' %}">here</a></h1>
+        </div>
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
